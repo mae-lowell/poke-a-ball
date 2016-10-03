@@ -1,4 +1,5 @@
 phraseapp:
+  project_id:"443787b2c67e387acfcde98617b6899e"
   file_format: "strings"
   push:
     sources:
