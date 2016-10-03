@@ -2,13 +2,13 @@ phraseapp:
   file_format: "strings"
   push:
     sources:
-    - file: "./HelloWorld/Localizable.strings"
+    - file: "HelloWorld/Localizable.strings"
       params:
         convert_emoji: true
-    - file: "./HelloWorldTest/Localizable.strings"
+    - file: "HelloWorldTest/Localizable.strings"
       params:
         convert_emoji: true
-    - file: "./HelloWorldTest/Main.strings"
+    - file: "HelloWorldTest/Main.strings"
       params:
         convert_emoji: true
   pull:
