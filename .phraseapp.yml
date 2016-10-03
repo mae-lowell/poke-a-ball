@@ -1,4 +1,5 @@
 phraseapp:
+  file_format: "strings"
   push:
     sources:
     - file: "./HelloWorld/Localizable.strings"
