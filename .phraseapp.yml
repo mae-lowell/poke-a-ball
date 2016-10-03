@@ -1,5 +1,4 @@
 phraseapp:
-  project
   file_format: "strings"
   push:
     sources:
