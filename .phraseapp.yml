@@ -3,7 +3,7 @@ phraseapp:
   file_format: "strings"
   push:
     sources:
-    - file: "./test.strings"
+    - file: "./HelloWorld/Localizable.strings"
   pull:
     targets:
-    - file: "./<locale_code>/test.strings"
+    - file: "./HelloWorld/<locale_code>/Localizable.strings"
