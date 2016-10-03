@@ -4,8 +4,15 @@ phraseapp:
   file_format: "strings"
   push:
     sources:
-#    - file: "./HelloWorld/Localizable.strings"
+    - file: "*.strings"
+      params:
+        file_format: "strings"
+    - file: "./*.strings"
+      params:
+        file_format: "strings"
     - file: "./*/*.strings"
+      params:
+        file_format: "strings"
   pull:
     targets:
     - file: "HelloWorld/<locale_code>/Localizable.strings"
