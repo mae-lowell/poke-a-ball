@@ -1,16 +1,9 @@
 phraseapp:
-  access_token: "01c911bc80021dc3058f021e622361e60b3fdf43860a0c5879bede5fc061c8cb"
   project_id: "443787b2c67e387acfcde98617b6899e"
   file_format: "strings"
   push:
     sources:
-    - file: "*.strings"
-      params:
-        file_format: "strings"
-    - file: "./*.strings"
-      params:
-        file_format: "strings"
-    - file: "./*/*.strings"
+    - file: "HelloWorld/<locale_code>/Localizable.strings"
       params:
         file_format: "strings"
   pull:
