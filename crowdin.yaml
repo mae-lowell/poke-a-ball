@@ -2,3 +2,6 @@ files:
   - 
     source: HelloWorld/en/*.strings
     translation: HelloWorld/%two_letters_code%/%file_name%.%file_extension%
+  - 
+    source: /HelloWorldTest/Localizable.strings
+    translation: /HelloWorldTest/%locale%.lproj/%original_file_name%
